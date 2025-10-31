@@ -1,0 +1,137 @@
+
+/* ---------- Header ---------- */
+.contact-header {
+  text-align: center;
+
+}
+
+.contact-header h1 {
+  font-size: 2rem;
+  color: #111;
+}
+
+.contact-header span {
+  color: black;
+}
+
+.contact-header p {
+  color: #7e7e7e;
+  font-size: 1rem;
+  margin-top:0.5rem;
+}
+
+/* ---------- Container ---------- */
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+   animation: fadeIn 0.5s ease-in-out;
+  margin: 0 auto;
+  gap: 3rem;
+  padding: 2rem 1rem;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.05);
+}
+
+/* ---------- Info Section ---------- */
+
+.contact-info h2 {
+  color: black;
+  margin-bottom: 0.8rem;
+}
+
+.contact-info p {
+  color: #666;
+  margin-bottom: 1.2rem;
+  font-size: 0.95rem;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 0.6rem 0;
+  color: #444;
+  font-size: 0.95rem;
+}
+
+/* ---------- Form Section ---------- */
+#contactForm{
+  max-width: 500px;
+  width: 100%;
+ 
+}
+.form-group {
+  margin-bottom: 1.2rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.4rem;
+  color: #333;
+  font-weight: 500;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+  resize: none;
+}
+
+input:focus,
+textarea:focus {
+  border-color: black;
+}
+
+.btn-submit {
+  background-color: rgba(0, 0, 0, 0.584);
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.6rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 8px rgba(59,146,248,0.25);
+}
+
+.btn-submit:hover {
+  background-color: black;
+  transform: translateY(-2px);
+}
+
+.form-status {
+  text-align: center;
+  margin-top: 0.8rem;
+  font-size: 0.9rem;
+  color: black;
+}
+
+
+.info-item span a{
+  color:#3B92F8;
+  text-decoration: none;
+}
+.info-item span a:hover{
+    text-decoration:underline;
+}
+
+@media (max-width: 600px) {
+  .contact-container {
+    gap: 2rem;
+    padding: 1.5rem 0.8rem;
+  }
+}
+
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}

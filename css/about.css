@@ -1,0 +1,127 @@
+
+    /* ---------- Base ---------- */
+
+    h1, h2 {
+      color: #111;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      color: #555;
+      margin-bottom: 1rem;
+    }
+
+    /* ---------- About Section ---------- */
+    .about-header {
+      text-align: center;
+      padding: 3rem 1rem;
+      color: #fff;
+      border-radius: 0 0 30px 30px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .about-header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    .about-header p {
+      font-size: 1rem;
+      opacity: 0.95;
+    }
+
+    .about-content {
+      margin-top: 2.5rem;
+      text-align: left;
+    }
+
+    .about-content h2 {
+      margin-top: 2rem;
+      font-size: 1.4rem;
+      color: black;
+    }
+
+    .about-content p {
+      font-size: 1rem;
+    }
+
+    /* ---------- Highlight Section ---------- */
+    .mission {
+      background-color: #f8f9fa;
+      padding: 2rem;
+      border-radius: 12px;
+      margin: 2rem 0;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+    }
+
+    .mission h2 {
+      color: #3B92F8;
+      margin-bottom: 1rem;
+    }
+
+    /* ---------- Contact Section ---------- */
+    .contact-info {
+      text-align: center;
+      margin: 3rem 0;
+    }
+
+    .contact-info a {
+      display: inline-block;
+      color: #7195bf;
+      text-decoration: none;
+      font-weight: 500;
+      transition: 0.3s ease;
+    }
+
+    .contact-info a:hover {
+      color: #386db3;
+    }
+
+    /* ---------- Back Home Button ---------- */
+    .back-home {
+      text-align: center;
+      margin: 2rem 0;
+    }
+
+    .back-home a {
+      display: inline-block;
+      background-color: rgba(0, 0, 0, 0.614);
+      color: #fff;
+      text-decoration: none;
+      font-size: 1rem;
+      font-weight: 500;
+      padding: 0.7rem 1.4rem;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+      box-shadow: 0 3px 8px rgba(59, 146, 248, 0.25);
+    }
+
+    .back-home a:hover {
+      background-color: black;
+      box-shadow: 0 4px 12px rgba(59, 146, 248, 0.35);
+      transform: translateY(-2px);
+    }
+
+    /* ---------- Responsive ---------- */
+    @media (max-width: 768px) {
+      .about-header h1 {
+        font-size: 2rem;
+      }
+
+      .container {
+        padding: 1.2rem;
+      }
+
+      .about-content h2 {
+        font-size: 1.2rem;
+      }
+
+      .mission {
+        padding: 1.5rem;
+      }
+
+      p {
+        font-size: 0.95rem;
+      }
+    }

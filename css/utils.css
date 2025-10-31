@@ -1,0 +1,159 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:regular,500,600,700);
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100%;
+
+  padding: 1rem;
+  /* background: red; */
+}
+
+/* width */
+.max-width-1 {
+  max-width: 80vw;
+}
+
+.max-width-2 {
+  max-width: 50vw;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+/* ---------------- Footer ---------------- */
+
+
+.footer {
+ 
+  padding-top: 1rem;
+  color: #333;
+}
+
+.footer-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* ---------- Top Footer ---------- */
+.top-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.footer-logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #111;
+}
+
+
+
+.footer-links {
+  display: flex;
+  gap: 1.8rem;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #616161;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #3B92F8;
+}
+
+/* ---------- Bottom Footer ---------- */
+.bottom-footer {
+  text-align: center;
+  padding-top: 1.2rem;
+}
+
+.footer-text {
+  color: #444;
+  font-size: 0.95rem;
+  padding-bottom: 1rem;
+}
+
+.bottom-footer p {
+  margin: 5px 0;
+  color: #647791;
+  font-size: 0.9rem;
+}
+/* home back style */
+
+.back-home {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.back-home a {
+    display: inline-block;
+  background-color: rgba(0, 0, 0, 0.667);
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.7rem 1.4rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 8px rgba(59, 146, 248, 0.25);
+}
+
+.back-home a:hover {
+  background-color: black;
+  box-shadow: 0 4px 12px rgba(59, 146, 248, 0.35);
+  transform: translateY(-2px);
+}
+
+.back-home a:active {
+  transform: scale(0.98);
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 600px) {
+  .back-home a {
+    font-size: 0.95rem;
+    padding: 0.6rem 1.2rem;
+  }
+}
+
+
+/* ---------- Responsive ---------- */
+@media (max-width: 768px) {
+  .top-footer {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .footer-links {
+    justify-content: center;
+  }
+
+  .footer-logo {
+    font-size: 1.4rem;
+  }
+
+  .footer-text {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+  }
+  .bottom-footer {
+  text-align: center;
+  padding-top: 0.5rem;
+}
+
+}
